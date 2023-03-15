@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Interactive Rating</title>
+  </head>
+  <body>
+    <main class="hero-container">
+    <div class="container">
+      <section class="rate-container abs fade-in" id="rate-container">
+        <div class="icon">
+          <img src="images/icon-star.svg" alt="star-icon" />
+        </div>
+        <div class="text-content">
+          <h3>How did we do?</h3>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+
+        <ul class="rate" id="rate">
+          <li class="">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+
+        <button type="button" id="submit">submit</button>
+      </section>
+
+      <section class="thank-container abs fade-out " id="thank-container">
+        <div class="image">
+          <img src="images/illustration-thank-you.svg" alt="" />
+        </div>
+        <div class="selected" id="selected">You selected 4 out of 5</div>
+        <h3>Thank you!</h3>
+        <p>
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </section>
+    </div>
+    </main>
+
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
